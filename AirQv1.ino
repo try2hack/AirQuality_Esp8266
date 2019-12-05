@@ -106,13 +106,6 @@ char checkValue(unsigned char *thebuf, char leng)
   return receiveflag;
 }
 
-int transmitPM01(unsigned char *thebuf)
-{
-  int PM01Val;
-  PM01Val = ((thebuf[3] << 8) + thebuf[4]); //count PM1.0 value of the air detector module
-  return PM01Val;
-}
-
 //transmit PM Value to PC
 int transmitPM2_5(unsigned char *thebuf)
 {
