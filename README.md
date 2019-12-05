@@ -1,4 +1,4 @@
-# AirQuilityEsp8266
+# AirQualityEsp8266
 
 Esp8266+PMS5003 G5+DHT22+SSD1306 OLED
 
